@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1"  >
+
+    <test name="GooglePage Test" >
+        <classes>
+            <class name="GoogleTest.TestHomePage" >
+                <methods>
+                    <include name = "testSearch"/>
+                </methods>
+            </class>
+
+            <class name="AmazonTest.TestAddingItemToCard" >
+                <methods>
+                    <include name = "testAddingItemToCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

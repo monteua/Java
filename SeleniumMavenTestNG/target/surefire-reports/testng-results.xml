@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="28846" started-at="2017-09-04T16:42:14Z" finished-at="2017-09-04T16:42:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="28846" started-at="2017-09-04T16:42:14Z" finished-at="2017-09-04T16:42:42Z">
+      <class name="GoogleTest.TestHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GoogleTest.TestHomePage@68837a77]" name="setUp" is-config="true" duration-ms="2686" started-at="2017-09-04T16:42:36Z" finished-at="2017-09-04T16:42:38Z">
+        </test-method>
+        <test-method status="PASS" signature="openGooglePage()[pri:0, instance:GoogleTest.TestHomePage@68837a77]" name="openGooglePage" is-config="true" duration-ms="1593" started-at="2017-09-04T16:42:38Z" finished-at="2017-09-04T16:42:40Z">
+        </test-method>
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:GoogleTest.TestHomePage@68837a77]" name="testSearch" duration-ms="1417" started-at="2017-09-04T16:42:40Z" finished-at="2017-09-04T16:42:41Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleTest.TestHomePage@68837a77]" name="tearDown" is-config="true" duration-ms="1182" started-at="2017-09-04T16:42:41Z" finished-at="2017-09-04T16:42:42Z">
+        </test-method>
+      </class>
+      <class name="AmazonTest.TestAddingItemToCard">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:AmazonTest.TestAddingItemToCard@2d554825]" name="setUp" is-config="true" duration-ms="3591" started-at="2017-09-04T16:42:14Z" finished-at="2017-09-04T16:42:17Z">
+        </test-method>
+        <test-method status="PASS" signature="openAmazonPage()[pri:0, instance:AmazonTest.TestAddingItemToCard@2d554825]" name="openAmazonPage" is-config="true" duration-ms="3647" started-at="2017-09-04T16:42:17Z" finished-at="2017-09-04T16:42:21Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddingItemToCard()[pri:0, instance:AmazonTest.TestAddingItemToCard@2d554825]" name="testAddingItemToCard" duration-ms="13589" started-at="2017-09-04T16:42:21Z" finished-at="2017-09-04T16:42:34Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AmazonTest.TestAddingItemToCard@2d554825]" name="tearDown" is-config="true" duration-ms="1129" started-at="2017-09-04T16:42:34Z" finished-at="2017-09-04T16:42:36Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
